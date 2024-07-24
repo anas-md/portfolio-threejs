@@ -20,9 +20,9 @@ import {
     tajdid,
     hnb,
     revature,
-    carrent,
-    jobit,
-    tripguide,
+    collabdocs,
+    iphone,
+    darklanding,
     threejs,
     php,
     java,
@@ -197,16 +197,38 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "CollabDocs",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A collaborative document editing platform with real-time collaboration - allowing users to create, edit, and share documents.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "shadcn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "liveblocks",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: collabdocs,
+      url_link: "https://collab-docs-swart.vercel.app/",
+      source_code_link: "https://github.com/anas-md/collab-docs",
+    },
+    {
+      name: "Landing Page",
+      description:
+        "A dark-themed landing page with a clean and modern design, together with sleek animations.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "framer-motion",
           color: "green-text-gradient",
         },
         {
@@ -214,50 +236,35 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: darklanding,
+      url_link: "https://anas-md.github.io/dark-theme-landing-page/",
+      source_code_link: "https://github.com/anas-md/dark-theme-landing-page",
     },
     {
-      name: "Job IT",
+      name: "IPhone Product Page",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A mock product page for Apple's iPhone 15 Pro with complex animations and 3d rendering.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "gsap",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "framer-motion",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "three.js",
+          color: "orange-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: iphone,
+      url_link: "https://anas-md.github.io/product-page-iphone/",
+      source_code_link: "https://github.com/anas-md/product-page-iphone",
     },
   ];
   
